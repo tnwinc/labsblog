@@ -24,6 +24,6 @@ Our usual configuration is:
   - `\T` : Run the entire spec suite
   - '\d' : Run local specs in the node debugger
 
-Here is a YouTube of it in use: http://www.youtube.com/watch?v=ZOW4V4iRMJc
+Here is a YouTube of it in use: [See it on YouTube!](http://www.youtube.com/watch?v=ZOW4V4iRMJc)
 
-You can see it on GitHub here: https://github.com/tnwinc/vim-spec-runner
+You can see it on GitHub here: <https://github.com/tnwinc/vim-spec-runner>
