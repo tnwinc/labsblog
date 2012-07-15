@@ -23,7 +23,7 @@ Our usual configuration is:
   * `\t` : Run specs local to the current buffer
   * `\t.` : Run the current buffer's specs
   * `\T` : Run the entire spec suite
-  * '\d' : Run local specs in the node debugger
+  * `\d` : Run local specs in the node debugger
 
 Here is a YouTube of it in use: [See it on YouTube!](http://www.youtube.com/watch?v=ZOW4V4iRMJc)
 
