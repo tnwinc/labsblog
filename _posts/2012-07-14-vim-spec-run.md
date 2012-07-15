@@ -19,10 +19,10 @@ a little bit more awesome.)
 
 Our usual configuration is:
 
-  *  Press **\t** : Run specs local to the current buffer
-  *  Press **\t.** : Run the current buffer's specs
-  *  Press **\T** : Run the entire spec suite
-  *  Press **\d** : Run local specs in the node debugger
+  *  Press **\t**  Run specs local to the current buffer
+  *  Press **\t.**  Run the current buffer's specs
+  *  Press **\T**  Run the entire spec suite
+  *  Press **\d**  Run local specs in the node debugger
 
 
 Here is a YouTube of it in use: [See it on YouTube!](http://www.youtube.com/watch?v=ZOW4V4iRMJc)
