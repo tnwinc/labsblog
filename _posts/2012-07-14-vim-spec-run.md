@@ -19,6 +19,7 @@ a little bit more awesome.)
 
 Our usual configuration is:
 
+
   * `\t` : Run specs local to the current buffer
   * `\t.` : Run the current buffer's specs
   * `\T` : Run the entire spec suite
