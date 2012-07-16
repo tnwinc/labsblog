@@ -14,16 +14,15 @@ twitter-handle: brendanjerwin
 (CoffeeScript + Mocha) quick and awesome.
 
 It is designed to work with either `screen` and Terminal.app, or
-`screen` and iTerm2.app. (When used with iTerm2, it uses AppleScript for
+iTerm2.app. (When used with iTerm2, it uses AppleScript for
 a little bit more awesome.)
 
 Our usual configuration is:
 
-*  Press **\t** : Run specs local to the current buffer
-*  Press **\t.** : Run the current buffer's specs
-*  Press **\T** : Run the entire spec suite
-*  Press **\d** : Run local specs in the node debugger
-
+*  Press **<Leader>t**  : Run specs local to the current buffer
+*  Press **<Leader>t.** : Run the current buffer's specs
+*  Press **<Leader>T**  : Run the entire spec suite
+*  Press **<Leader>d.** : Run the current buffer's specs in the node debugger
 
 Here is a YouTube of it in use: [See it on YouTube!](http://www.youtube.com/watch?v=ZOW4V4iRMJc)
 
