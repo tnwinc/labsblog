@@ -19,10 +19,10 @@ a little bit more awesome.)
 
 Our usual configuration is:
 
-*  Press **<Leader>t**  : Run specs local to the current buffer
-*  Press **<Leader>t.** : Run the current buffer's specs
-*  Press **<Leader>T**  : Run the entire spec suite
-*  Press **<Leader>d.** : Run the current buffer's specs in the node debugger
+*  Press **&lt;Leader&gt;t**  : Run specs local to the current buffer
+*  Press **&lt;Leader&gt;t.** : Run the current buffer's specs
+*  Press **&lt;Leader&gt;T**  : Run the entire spec suite
+*  Press **&lt;Leader&gt;d.** : Run the current buffer's specs in the node debugger
 
 Here is a YouTube of it in use: [See it on YouTube!](http://www.youtube.com/watch?v=ZOW4V4iRMJc)
 
