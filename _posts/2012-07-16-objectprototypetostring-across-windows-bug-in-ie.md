@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Object.prototype.toString across windows bug in IE"
-tags: []
-author:
-mail:
+tags: [ie, bugs]
+author: James Maroney
+mail: james.maroney@gmail.com
 published: true
-summary:
+summary: IE strikes again!
 twitter-handle:
 ---
 {% include JB/setup %}
