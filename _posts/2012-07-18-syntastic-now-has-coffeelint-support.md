@@ -19,4 +19,4 @@ plugin, so using them together should work great.
 
 Here is a little video of it in action:
 
-<iframe width="480" height="360" src="http://www.youtube.com/embed/rNH3OZNSsog?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="480" height="360" src="http://www.youtube.com/embed/rNH3OZNSsog?rel=0" frameborder="0" allowfullscreen=""></iframe>
