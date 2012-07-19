@@ -12,7 +12,7 @@ twitter-handle: brendanjerwin
 
 I wrote a slight improvement to the [Syntastic vim plugin](https://github.com/scrooloose/syntastic) recently. The pull-request was accepted, I guess it will be in the next release.
 
-It now runs [CoffeeLint]() if you have it on your `PATH`. It respects
+It now runs [CoffeeLint](http://www.coffeelint.org/) if you have it on your `PATH`. It respects
 the same configuration options for CoffeeLint as expected by the
 [vim-coffee-script](https://github.com/kchmck/vim-coffee-script/)
 plugin, so using them together should work great.
