@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shortcut Foo is really cool!"
-tags: [vim,programming]
+tags: [vim, programming]
 author: Brendan Erwin
 mail: brendanjerwin@gmail.com
 published: true
