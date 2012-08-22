@@ -1,5 +1,4 @@
 ---
----
 layout: post
 title: "Push Me, Push You"
 tags: [git, tricks]
@@ -10,9 +9,6 @@ summary: Save a few keystrokes with this push trick.
 twitter-handle: @cubanx
 ---
 {% include JB/setup %}
-
-
----
 
 code code code
 
