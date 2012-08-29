@@ -4,7 +4,7 @@ title: "VS2012 bringing sexy back"
 tags: [ide, productivity]
 author: Ricardo Diaz
 mail: ricardodiaz@tnwinc.com
-published: false
+published: true
 summary: VS2012 has some new hotness
 twitter-handle: @cubanx
 
