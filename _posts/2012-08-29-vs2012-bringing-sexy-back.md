@@ -7,9 +7,7 @@ mail: ricardodiaz@tnwinc.com
 published: true
 summary: VS2012 has some new hotness
 twitter-handle: @cubanx
-
 ---
-
 {% include JB/setup %}
 
 Finally got a chance to upgrade to VS2012 today. Since ReSharper is official, and already on 7.01, I thought I should get to it.
