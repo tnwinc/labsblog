@@ -6,7 +6,7 @@ author: Ricardo Diaz
 mail: ricardodiaz@tnwinc.com
 published: true
 summary: Save a few keystrokes with this push trick.
-twitter-handle: @cubanx
+twitter-handle: cubanx
 ---
 {% include JB/setup %}
 
@@ -25,7 +25,7 @@ If I have to type the origin name and the branch name one more time, I'm going t
 
 Save some keystrokes, do this:
     $ git config --global push.default upstream
-    
+
 This will make this:
 
     $ git push

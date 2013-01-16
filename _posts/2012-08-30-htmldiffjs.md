@@ -6,7 +6,7 @@ author: Brendan Erwin
 mail: brendanjerwin@gmail.com
 published: true
 summary: htmldiff.js - Diff algorithm that understands HTML
-twitter-handle: @brendanjerwin
+twitter-handle: brendanjerwin
 ---
 {% include JB/setup %}
 

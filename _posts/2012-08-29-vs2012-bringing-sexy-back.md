@@ -6,7 +6,7 @@ author: Ricardo Diaz
 mail: ricardodiaz@tnwinc.com
 published: true
 summary: VS2012 has some new hotness
-twitter-handle: @cubanx
+twitter-handle: cubanx
 ---
 {% include JB/setup %}
 
@@ -39,7 +39,7 @@ So far, this has worked out pretty well. Here's a screenshot of my setup running
 
 All these extensions are available in 2010.
 
-One of the extensions I did NOT install, which I had in 2010 is the [Productivity Power Tools]. This was for 2 reasons. 
+One of the extensions I did NOT install, which I had in 2010 is the [Productivity Power Tools]. This was for 2 reasons.
 
 1. It's not available for 2012, and it may never be because...
 1. A large part of its functionality is built in 2012.
