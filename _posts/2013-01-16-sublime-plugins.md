@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Spec Runner &amp; Coffee Cleaner for Sublime Text"
-tags: [word, docx, html]
+tags: [sublime, testing]
 author: Chris Breiding
 mail: chrisbreiding@tnwinc.com
 published: true
