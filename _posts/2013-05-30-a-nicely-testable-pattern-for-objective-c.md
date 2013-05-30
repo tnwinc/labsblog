@@ -18,3 +18,7 @@ The dynamicaly dispatched nature of Objective-C offers some interesting tools to
 
 <script src="https://gist.github.com/brendanjerwin/5677203.js"></script>
 
+Using this method, I can easily write a test for the `entityListSegueToController:WithSegue:` method:
+
+<script src="https://gist.github.com/brendanjerwin/5677228.js"></script>
+
