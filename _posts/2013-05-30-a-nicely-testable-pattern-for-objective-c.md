@@ -1,5 +1,5 @@
 ---
-published: "false"
+published: "true"
 layout: post
 title: "A Nicely Testable Pattern for Objective-C"
 tags: 
