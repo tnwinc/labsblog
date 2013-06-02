@@ -68,10 +68,196 @@ legend {
   color: #000;
 }
 
-/* line 3, themes/custom/css/style.scss */
+/* line 10, themes/custom/css/style.scss */
 body {
+  background: #f8f8f8 url('themes/custom/images/body-bg.png?1370177701') repeat-y;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   width: 100%;
   height: 100%;
+}
+
+/* line 18, themes/custom/css/style.scss */
+.body-wrap {
+  background: url('themes/custom/images/beakers.png?1370180405') 95% 95% no-repeat;
+}
+
+/* line 22, themes/custom/css/style.scss */
+p {
+  line-height: 1.5;
+}
+
+/* line 26, themes/custom/css/style.scss */
+.clearfix:before, .post-in-list a:before, .clearfix:after, .post-in-list a:after {
+  content: "";
+  display: table;
+}
+
+/* line 27, themes/custom/css/style.scss */
+.clearfix:after, .post-in-list a:after {
+  clear: both;
+}
+
+/* line 29, themes/custom/css/style.scss */
+.header {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 230px;
+}
+
+/* line 38, themes/custom/css/style.scss */
+.logo {
+  margin-bottom: 20px;
+}
+/* line 41, themes/custom/css/style.scss */
+.logo a {
+  background: url('themes/custom/images/logo.png?1370142089') no-repeat;
+  display: block;
+  text-indent: -9999px;
+  width: 200px;
+  height: 60px;
+}
+
+/* line 50, themes/custom/css/style.scss */
+.nav {
+  font-size: 1.4em;
+  padding-left: 20px;
+}
+/* line 54, themes/custom/css/style.scss */
+.nav li {
+  margin: 10px 0;
+}
+/* line 58, themes/custom/css/style.scss */
+.nav a {
+  color: #565656;
+  text-decoration: none;
+}
+/* line 63, themes/custom/css/style.scss */
+.nav a:hover, .nav a:focus {
+  color: #f68122;
+}
+
+/* line 69, themes/custom/css/style.scss */
+.main {
+  margin-left: 230px;
+  width: 730px;
+}
+
+/* line 75, themes/custom/css/style.scss */
+.post-in-list a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+/* line 82, themes/custom/css/style.scss */
+.post-in-list a:hover, .post-in-list a:focus {
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f2f2f2), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(left, #f2f2f2, rgba(255, 255, 255, 0));
+  background: -moz-linear-gradient(left, #f2f2f2, rgba(255, 255, 255, 0));
+  background: -o-linear-gradient(left, #f2f2f2, rgba(255, 255, 255, 0));
+  background: linear-gradient(left, #f2f2f2, rgba(255, 255, 255, 0));
+  border-left: solid 5px;
+  padding-left: 10px;
+}
+/* line 88, themes/custom/css/style.scss */
+.post-in-list a span {
+  background-repeat: no-repeat;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  width: 90px;
+  height: 90px;
+}
+/* line 97, themes/custom/css/style.scss */
+.post-in-list a h2 {
+  color: #011f60;
+  font-size: 1.4em;
+  margin-bottom: 5px;
+}
+/* line 103, themes/custom/css/style.scss */
+.post-in-list a p {
+  color: #727272;
+}
+
+/* line 110, themes/custom/css/style.scss */
+.blue a:hover,
+.blue a:focus {
+  border-left-color: #011f60;
+}
+
+/* line 115, themes/custom/css/style.scss */
+.green a:hover,
+.green a:focus {
+  border-left-color: #9ec26b;
+}
+
+/* line 120, themes/custom/css/style.scss */
+.orange a:hover,
+.orange a:focus {
+  border-left-color: #f68122;
+}
+
+/* line 126, themes/custom/css/style.scss */
+.blue a .molecule-caffeine {
+  background-image: url('themes/custom/images/molecule-caffeine-blue.png?1370185323');
+}
+
+/* line 126, themes/custom/css/style.scss */
+.blue a .molecule-adrenaline {
+  background-image: url('themes/custom/images/molecule-adrenaline-blue.png?1370185323');
+}
+
+/* line 126, themes/custom/css/style.scss */
+.blue a .molecule-dopamine {
+  background-image: url('themes/custom/images/molecule-dopamine-blue.png?1370185323');
+}
+
+/* line 126, themes/custom/css/style.scss */
+.blue a .molecule-acetaminophen {
+  background-image: url('themes/custom/images/molecule-acetaminophen-blue.png?1370185323');
+}
+
+/* line 126, themes/custom/css/style.scss */
+.green a .molecule-caffeine {
+  background-image: url('themes/custom/images/molecule-caffeine-green.png?1370185323');
+}
+
+/* line 126, themes/custom/css/style.scss */
+.green a .molecule-adrenaline {
+  background-image: url('themes/custom/images/molecule-adrenaline-green.png?1370185323');
+}
+
+/* line 126, themes/custom/css/style.scss */
+.green a .molecule-dopamine {
+  background-image: url('themes/custom/images/molecule-dopamine-green.png?1370185323');
+}
+
+/* line 126, themes/custom/css/style.scss */
+.green a .molecule-acetaminophen {
+  background-image: url('themes/custom/images/molecule-acetaminophen-green.png?1370185323');
+}
+
+/* line 126, themes/custom/css/style.scss */
+.orange a .molecule-caffeine {
+  background-image: url('themes/custom/images/molecule-caffeine-orange.png?1370185323');
+}
+
+/* line 126, themes/custom/css/style.scss */
+.orange a .molecule-adrenaline {
+  background-image: url('themes/custom/images/molecule-adrenaline-orange.png?1370185323');
+}
+
+/* line 126, themes/custom/css/style.scss */
+.orange a .molecule-dopamine {
+  background-image: url('themes/custom/images/molecule-dopamine-orange.png?1370185323');
+}
+
+/* line 126, themes/custom/css/style.scss */
+.orange a .molecule-acetaminophen {
+  background-image: url('themes/custom/images/molecule-acetaminophen-orange.png?1370185322');
 }
