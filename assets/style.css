@@ -1,0 +1,77 @@
+/* line 1, themes/custom/css/_reset.scss */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 6, themes/custom/css/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 11, themes/custom/css/_reset.scss */
+fieldset, img, a img {
+  border: none;
+}
+
+/* line 15, themes/custom/css/_reset.scss */
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+/* line 20, themes/custom/css/_reset.scss */
+del, ins {
+  text-decoration: none;
+}
+
+/* line 24, themes/custom/css/_reset.scss */
+li {
+  list-style: none;
+}
+
+/* line 28, themes/custom/css/_reset.scss */
+caption, th {
+  text-align: left;
+}
+
+/* line 32, themes/custom/css/_reset.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 37, themes/custom/css/_reset.scss */
+q:before, q:after {
+  content: '';
+}
+
+/* line 41, themes/custom/css/_reset.scss */
+abbr, acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+/* line 46, themes/custom/css/_reset.scss */
+sup {
+  vertical-align: baseline;
+}
+
+/* line 50, themes/custom/css/_reset.scss */
+sub {
+  vertical-align: baseline;
+}
+
+/* line 54, themes/custom/css/_reset.scss */
+legend {
+  color: #000;
+}
+
+/* line 3, themes/custom/css/style.scss */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}

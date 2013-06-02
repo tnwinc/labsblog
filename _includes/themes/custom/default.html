@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<htmllang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title }} :: The Network, Inc. DevLabs</title>
+  <link href='/assets/style.css' rel="stylesheet" media="all">
+  <link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30117457-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body>
+
+  <div class="header">
+    <h1 class="logo"><a href="/">The Network, Inc. DevLabs</a></h1>
+    <ul class="nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/archive.html">Archive</a></li>
+      <li><a href="/projects.html">Projects</a></li>
+    </ul>
+  </div>
+
+  <div class="main">
+    {{ content }}
+  </div>
+
+  {% include JB/analytics %}
+
+  <script>
+    (function(d, s) {
+      var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.src = url; js.id = id;
+        fjs.parentNode.insertBefore(js, fjs);
+      };
+      load('//platform.twitter.com/widgets.js', 'Tweetjs');
+    }(document, 'script'));
+  </script>
+</body>
+</html>
