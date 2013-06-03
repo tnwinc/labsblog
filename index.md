@@ -11,3 +11,7 @@ title: 'Recent Posts'
     {% include themes/custom/post %}
   {% endfor %}
 </ul>
+
+<p class="post-archive-link">
+  <a href="/archive.html">Post Archive</a>
+</p>
