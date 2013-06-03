@@ -70,7 +70,7 @@ legend {
 
 /* line 36, themes/custom/css/style.scss */
 html {
-  background: #f8f8f8 url('themes/custom/images/body-bg.png?1370177701') no-repeat;
+  background: #f8f8f8 url('themes/custom/images/body-bg.png?1370177701') repeat-y;
 }
 
 /* line 40, themes/custom/css/style.scss */

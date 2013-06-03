@@ -34,7 +34,7 @@ $tnw-orange: #f68122;
 $logo-gray: #565656;
 
 html {
-  background: #f8f8f8 image-url("body-bg.png") no-repeat;
+  background: #f8f8f8 image-url("body-bg.png") repeat-y;
 }
 
 body {
