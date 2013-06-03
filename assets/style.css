@@ -69,36 +69,85 @@ legend {
 }
 
 /* line 10, themes/custom/css/style.scss */
-body {
+html {
   background: #f8f8f8 url('themes/custom/images/body-bg.png?1370177701') repeat-y;
+}
+
+/* line 14, themes/custom/css/style.scss */
+body {
+  background: url('themes/custom/images/beakers.png?1370198812') 100% 100% no-repeat;
+  color: #333;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   width: 100%;
   height: 100%;
 }
 
-/* line 18, themes/custom/css/style.scss */
-.body-wrap {
-  background: url('themes/custom/images/beakers.png?1370180405') 95% 95% no-repeat;
+/* line 23, themes/custom/css/style.scss */
+.wrap {
+  margin: 20px;
 }
 
-/* line 22, themes/custom/css/style.scss */
+/* line 27, themes/custom/css/style.scss */
+h2 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+/* line 32, themes/custom/css/style.scss */
+h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+/* line 37, themes/custom/css/style.scss */
 p {
   line-height: 1.5;
+  margin: 10px 0;
 }
 
-/* line 26, themes/custom/css/style.scss */
-.clearfix:before, .post-in-list a:before, .clearfix:after, .post-in-list a:after {
+/* line 43, themes/custom/css/style.scss */
+a:link,
+a:visited {
+  color: #f68122;
+  text-decoration: none;
+}
+
+/* line 50, themes/custom/css/style.scss */
+a:hover,
+a:focus,
+a:active {
+  color: #9ec26b;
+  text-decoration: underline;
+}
+
+/* line 55, themes/custom/css/style.scss */
+code {
+  background: #f2f2f2;
+  border: solid 1px #e3e3e3;
+  display: block;
+  padding: 5px 10px;
+}
+
+/* line 62, themes/custom/css/style.scss */
+hr {
+  border: none;
+  border-top: solid 1px #d3d3d3;
+  margin: 20px 0;
+}
+
+/* line 68, themes/custom/css/style.scss */
+.clearfix:before, .post-in-list a:before, .tags:before, .projects li a:before, .post-nav:before, .clearfix:after, .post-in-list a:after, .tags:after, .projects li a:after, .post-nav:after {
   content: "";
   display: table;
 }
 
-/* line 27, themes/custom/css/style.scss */
-.clearfix:after, .post-in-list a:after {
+/* line 69, themes/custom/css/style.scss */
+.clearfix:after, .post-in-list a:after, .tags:after, .projects li a:after, .post-nav:after {
   clear: both;
 }
 
-/* line 29, themes/custom/css/style.scss */
+/* line 71, themes/custom/css/style.scss */
 .header {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -110,11 +159,11 @@ p {
   width: 230px;
 }
 
-/* line 38, themes/custom/css/style.scss */
+/* line 80, themes/custom/css/style.scss */
 .logo {
   margin-bottom: 20px;
 }
-/* line 41, themes/custom/css/style.scss */
+/* line 83, themes/custom/css/style.scss */
 .logo a {
   background: url('themes/custom/images/logo.png?1370142089') no-repeat;
   display: block;
@@ -123,141 +172,320 @@ p {
   height: 60px;
 }
 
-/* line 50, themes/custom/css/style.scss */
+/* line 92, themes/custom/css/style.scss */
 .nav {
   font-size: 1.4em;
   padding-left: 20px;
 }
-/* line 54, themes/custom/css/style.scss */
+/* line 96, themes/custom/css/style.scss */
 .nav li {
   margin: 10px 0;
 }
-/* line 58, themes/custom/css/style.scss */
+/* line 100, themes/custom/css/style.scss */
 .nav a {
   color: #565656;
   text-decoration: none;
 }
-/* line 63, themes/custom/css/style.scss */
+/* line 105, themes/custom/css/style.scss */
 .nav a:hover, .nav a:focus {
   color: #f68122;
 }
 
-/* line 69, themes/custom/css/style.scss */
+/* line 111, themes/custom/css/style.scss */
 .main {
   margin-left: 230px;
   width: 730px;
 }
 
-/* line 75, themes/custom/css/style.scss */
+/* line 117, themes/custom/css/style.scss */
 .post-in-list a {
   display: block;
-  padding: 15px;
+  padding: 15px 20px;
   text-decoration: none;
 }
-/* line 82, themes/custom/css/style.scss */
+/* line 124, themes/custom/css/style.scss */
 .post-in-list a:hover, .post-in-list a:focus {
-  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #f2f2f2), color-stop(100%, rgba(255, 255, 255, 0)));
-  background: -webkit-linear-gradient(left, #f2f2f2, rgba(255, 255, 255, 0));
-  background: -moz-linear-gradient(left, #f2f2f2, rgba(255, 255, 255, 0));
-  background: -o-linear-gradient(left, #f2f2f2, rgba(255, 255, 255, 0));
-  background: linear-gradient(left, #f2f2f2, rgba(255, 255, 255, 0));
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #efefef), color-stop(40%, #efefef), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(left, #efefef, #efefef 40%, rgba(255, 255, 255, 0));
+  background: -moz-linear-gradient(left, #efefef, #efefef 40%, rgba(255, 255, 255, 0));
+  background: -o-linear-gradient(left, #efefef, #efefef 40%, rgba(255, 255, 255, 0));
+  background: linear-gradient(left, #efefef, #efefef 40%, rgba(255, 255, 255, 0));
   border-left: solid 5px;
-  padding-left: 10px;
+  padding-left: 15px;
 }
-/* line 88, themes/custom/css/style.scss */
-.post-in-list a span {
+/* line 130, themes/custom/css/style.scss */
+.post-in-list a .icon {
   background-repeat: no-repeat;
   display: block;
   float: left;
-  margin-right: 15px;
   width: 90px;
   height: 90px;
 }
-/* line 97, themes/custom/css/style.scss */
-.post-in-list a h2 {
-  color: #011f60;
-  font-size: 1.4em;
-  margin-bottom: 5px;
+/* line 138, themes/custom/css/style.scss */
+.post-in-list a .post-in-list-content {
+  margin-left: 105px;
 }
-/* line 103, themes/custom/css/style.scss */
+/* line 142, themes/custom/css/style.scss */
+.post-in-list a h3 {
+  color: #011f60;
+  margin: 0 0 5px;
+}
+/* line 147, themes/custom/css/style.scss */
 .post-in-list a p {
   color: #727272;
+  margin: 5px 0 0;
+}
+/* line 152, themes/custom/css/style.scss */
+.post-in-list a .post-meta {
+  font-size: .9em;
+}
+/* line 157, themes/custom/css/style.scss */
+.post-in-list a .post-date,
+.post-in-list a .post-author {
+  color: #333;
 }
 
-/* line 110, themes/custom/css/style.scss */
+/* line 164, themes/custom/css/style.scss */
 .blue a:hover,
 .blue a:focus {
   border-left-color: #011f60;
 }
 
-/* line 115, themes/custom/css/style.scss */
+/* line 169, themes/custom/css/style.scss */
 .green a:hover,
 .green a:focus {
   border-left-color: #9ec26b;
 }
 
-/* line 120, themes/custom/css/style.scss */
+/* line 174, themes/custom/css/style.scss */
 .orange a:hover,
 .orange a:focus {
   border-left-color: #f68122;
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .blue a .molecule-caffeine {
   background-image: url('themes/custom/images/molecule-caffeine-blue.png?1370185323');
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .blue a .molecule-adrenaline {
   background-image: url('themes/custom/images/molecule-adrenaline-blue.png?1370185323');
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .blue a .molecule-dopamine {
   background-image: url('themes/custom/images/molecule-dopamine-blue.png?1370185323');
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .blue a .molecule-acetaminophen {
   background-image: url('themes/custom/images/molecule-acetaminophen-blue.png?1370185323');
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .green a .molecule-caffeine {
   background-image: url('themes/custom/images/molecule-caffeine-green.png?1370185323');
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .green a .molecule-adrenaline {
   background-image: url('themes/custom/images/molecule-adrenaline-green.png?1370185323');
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .green a .molecule-dopamine {
   background-image: url('themes/custom/images/molecule-dopamine-green.png?1370185323');
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .green a .molecule-acetaminophen {
   background-image: url('themes/custom/images/molecule-acetaminophen-green.png?1370185323');
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .orange a .molecule-caffeine {
   background-image: url('themes/custom/images/molecule-caffeine-orange.png?1370185323');
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .orange a .molecule-adrenaline {
   background-image: url('themes/custom/images/molecule-adrenaline-orange.png?1370185323');
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .orange a .molecule-dopamine {
   background-image: url('themes/custom/images/molecule-dopamine-orange.png?1370185323');
 }
 
-/* line 126, themes/custom/css/style.scss */
+/* line 180, themes/custom/css/style.scss */
 .orange a .molecule-acetaminophen {
   background-image: url('themes/custom/images/molecule-acetaminophen-orange.png?1370185322');
+}
+
+/* line 186, themes/custom/css/style.scss */
+.tags {
+  margin: 10px 0;
+}
+/* line 190, themes/custom/css/style.scss */
+.tags li {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+/* line 194, themes/custom/css/style.scss */
+.tags li a {
+  color: #565656;
+  display: block;
+  text-decoration: none;
+}
+/* line 199, themes/custom/css/style.scss */
+.tags li a span {
+  display: block;
+}
+/* line 203, themes/custom/css/style.scss */
+.tags li a .tag-name {
+  border: solid 1px #e3e3e3;
+  border-right: none;
+  float: left;
+  padding: 4px 7px;
+}
+/* line 210, themes/custom/css/style.scss */
+.tags li a .tag-count {
+  background: #e3e3e3;
+  float: right;
+  color: #565656;
+  padding: 5px 8px;
+}
+/* line 219, themes/custom/css/style.scss */
+.tags li a:hover .tag-name, .tags li a:focus .tag-name {
+  background: #e3e3e3;
+}
+
+/* line 227, themes/custom/css/style.scss */
+.has-top {
+  position: relative;
+}
+
+/* line 231, themes/custom/css/style.scss */
+.top {
+  font-size: 13px;
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+
+/* line 239, themes/custom/css/style.scss */
+.projects li a {
+  color: #011f60;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+/* line 247, themes/custom/css/style.scss */
+.projects li a:hover, .projects li a:focus {
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #efefef), color-stop(40%, #efefef), color-stop(100%, rgba(255, 255, 255, 0)));
+  background: -webkit-linear-gradient(left, #efefef, #efefef 40%, rgba(255, 255, 255, 0));
+  background: -moz-linear-gradient(left, #efefef, #efefef 40%, rgba(255, 255, 255, 0));
+  background: -o-linear-gradient(left, #efefef, #efefef 40%, rgba(255, 255, 255, 0));
+  background: linear-gradient(left, #efefef, #efefef 40%, rgba(255, 255, 255, 0));
+  border-left: solid 5px;
+  padding-left: 10px;
+}
+/* line 253, themes/custom/css/style.scss */
+.projects li a .icon {
+  display: block;
+  float: left;
+  margin-right: 15px;
+  width: 60px;
+  height: 60px;
+}
+/* line 261, themes/custom/css/style.scss */
+.projects li a h3 {
+  font-size: 1.4em;
+  margin: 0 0 5px;
+}
+/* line 266, themes/custom/css/style.scss */
+.projects li a p {
+  color: #727272;
+  margin: 5px 0 0;
+}
+
+/* line 275, themes/custom/css/style.scss */
+.projects .js a:hover,
+.projects .js a:focus {
+  border-left-color: #011f60;
+}
+/* line 280, themes/custom/css/style.scss */
+.projects .vim a:hover,
+.projects .vim a:focus {
+  border-left-color: #9ec26b;
+}
+/* line 285, themes/custom/css/style.scss */
+.projects .sublime a:hover,
+.projects .sublime a:focus {
+  border-left-color: #f68122;
+}
+/* line 290, themes/custom/css/style.scss */
+.projects .general a:hover,
+.projects .general a:focus {
+  border-left-color: #565656;
+}
+
+/* line 296, themes/custom/css/style.scss */
+.js .icon {
+  background: url('themes/custom/images/icon-js.png?1370218312') no-repeat;
+}
+
+/* line 296, themes/custom/css/style.scss */
+.vim .icon {
+  background: url('themes/custom/images/icon-vim.png?1370218312') no-repeat;
+}
+
+/* line 296, themes/custom/css/style.scss */
+.sublime .icon {
+  background: url('themes/custom/images/icon-sublime.png?1370218312') no-repeat;
+}
+
+/* line 296, themes/custom/css/style.scss */
+.general .icon {
+  background: url('themes/custom/images/icon-general.png?1370220780') no-repeat;
+}
+
+/* line 302, themes/custom/css/style.scss */
+.post .post-meta {
+  color: #727272;
+  float: left;
+  font-size: .9em;
+  margin-top: 0;
+}
+/* line 308, themes/custom/css/style.scss */
+.post .post-meta span {
+  color: #333;
+}
+/* line 313, themes/custom/css/style.scss */
+.post .readability {
+  float: right;
+}
+/* line 317, themes/custom/css/style.scss */
+.post h3 {
+  margin-top: 20px;
+}
+
+/* line 322, themes/custom/css/style.scss */
+.post-nav {
+  margin: 20px 0;
+}
+/* line 326, themes/custom/css/style.scss */
+.post-nav .prev {
+  float: left;
+}
+/* line 330, themes/custom/css/style.scss */
+.post-nav .next {
+  float: right;
+}
+
+/* line 335, themes/custom/css/style.scss */
+.social {
+  float: right;
+  margin-top: 10px;
 }

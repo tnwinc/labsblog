@@ -1,28 +1,24 @@
-<div class="post">
+<div class="post wrap">
 
-  <div class="rdbWrapper" data-show-read="1" data-show-send-to-kindle="1" data-show-print="0" data-show-email="0" data-orientation="0" data-version="1" data-bg-color="transparent"></div><script type="text/javascript">(function() {var s = document.getElementsByTagName("script")[0],rdb = document.createElement("script"); rdb.type = "text/javascript"; rdb.async = true; rdb.src = document.location.protocol + "//www.readability.com/embed.js"; s.parentNode.insertBefore(rdb, s); })();</script>
+  <h2>{{ page.title }}</h2>
 
-  <div class="content">
-    <h1>{{ page.title }}</h1>
-    {{ content }}
-  </div>
-
-  <div class="post-meta">
-    <p class="author">
-      by <a href="mailto:{{ page.email }}?subject={{ page.title }}" rel="author">{{ page.author }}</a>
-    </p>
-    <p class="date">
-      Published:
-      <time datetime="{{ page.date | date_to_xmlschema }}" pubdate>
-        {{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }}
+  <div class="clearfix">
+    <p class="post-meta">
+      Posted
+      <span class="post-date">
+        <span datetime="{{ page.date | date_to_xmlschema }}" pubdate>
+          {{ page.date | date: '%B' }} {{ page.date | date: '%d' }}, {{ page.date | date: '%Y' }}
+        </span>
       </span>
+      by <span class="post-author">{{ page.author }}</span>
     </p>
+
+    <div class="readability rdbWrapper" data-show-read="1" data-show-send-to-kindle="1" data-show-print="0" data-show-email="0" data-orientation="0" data-version="1" data-bg-color="transparent"></div><script type="text/javascript">(function() {var s = document.getElementsByTagName("script")[0],rdb = document.createElement("script"); rdb.type = "text/javascript"; rdb.async = true; rdb.src = document.location.protocol + "//www.readability.com/embed.js"; s.parentNode.insertBefore(rdb, s); })();</script>
   </div>
 
-  <ul class="tags">
-    {% assign tags_list = page.tags %}
-    {% include JB/tags_list %}
-  </ul>
+  {{ content }}
+
+  <hr />
 
   <ul class="social">
     <li class="twitter-tweet">
@@ -31,6 +27,13 @@
     <li class="twitter-follow">
       <a href="https://twitter.com/{{ site.author.twitter }}" class="twitter-follow-button" data-show-count="false" data-lang="en"></a>
     </li>
+  </ul>
+
+  <h3>Tags</h3>
+
+  <ul class="tags">
+    {% assign tags_list = page.tags %}
+    {% include JB/tags_list %}
   </ul>
 
   <div class="comments">

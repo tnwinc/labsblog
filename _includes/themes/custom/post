@@ -1,0 +1,20 @@
+<li class="post-in-list {% cycle 'blue', 'green', 'orange' %}">
+  <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.title }}">
+    <span class="icon molecule-{% cycle 'caffeine', 'adrenaline', 'dopamine', 'acetaminophen' %}">&nbsp;</span>
+    <div class="post-in-list-content">
+      <h3>{{ post.title }}</h3>
+      <p class="post-summary">{{ post.summary }}</p>
+
+      {% if include_date || include_author %}
+        <p class="post-meta">
+          {% if include_date %}
+            <span class="post-date">{{ post.date | date: "%B %e, %Y" }}</span>
+          {% endif %}
+          {% if include_author %}
+            by <span class="post-date">{{ post.author }}</span>
+          {% endif %}
+        </p>
+      {% endif %}
+    </div>
+  </a>
+</li>

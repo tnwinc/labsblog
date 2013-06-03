@@ -1,20 +1,28 @@
 ---
 layout: page
-title : Archive
-header : Post Archive
+title: Archive
+header: Post Archive
 group: navigation
 ---
+
 {% include JB/setup %}
 
-<div class="tags">
-  <h2>Article Tags</h2>
-  <ul>
+<div class="wrap">
+
+  <h2>Post Archive</h2>
+
+  <h3>Tags</h3>
+  <ul class="tags">
     {% assign tags_list = site.tags %}
     {% include JB/tags_list %}
   </ul>
+
 </div>
 
-<div class="archive">
-  {% assign posts_collate = site.posts %}
-  {% include JB/posts_collate %}
-</div>
+<ul class="posts archive">
+  {% assign include_date = true %}
+  {% assign include_author = true %}
+  {% for post in site.posts %}
+    {% include themes/custom/post %}
+  {% endfor %}
+</ul>

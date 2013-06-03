@@ -7,20 +7,62 @@ $tnw-green: #9ec26b;
 $tnw-orange: #f68122;
 $logo-gray: #565656;
 
-body {
+html {
   background: #f8f8f8 image-url("body-bg.png") repeat-y;
+}
+
+body {
+  background: image-url("beakers.png") 100% 100% no-repeat;
+  color: #333;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   width: 100%;
   height: 100%;
 }
 
-.body-wrap {
-  background: image-url("beakers.png") 95% 95% no-repeat;
+.wrap {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
 }
 
 p {
   line-height: 1.5;
+  margin: 10px 0;
+}
+
+a:link,
+a:visited {
+  color: $tnw-orange;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: $tnw-green;
+  text-decoration: underline;
+}
+
+code {
+  background: #f2f2f2;
+  border: solid 1px #e3e3e3;
+  display: block;
+  padding: 5px 10px;
+}
+
+hr {
+  border: none;
+  border-top: solid 1px #d3d3d3;
+  margin: 20px 0;
 }
 
 .clearfix:before,.clearfix:after { content:""; display:table; }
@@ -75,33 +117,45 @@ p {
   a {
     @extend .clearfix;
     display: block;
-    padding: 15px;
+    padding: 15px 20px;
     text-decoration: none;
 
     &:hover,
     &:focus {
-      @include background(linear-gradient(left, #f2f2f2, rgba(255,255,255,0)));
+      @include background(linear-gradient(left, #efefef, #efefef 40%, rgba(255,255,255,0)));
       border-left: solid 5px;
-      padding-left: 10px;
+      padding-left: 15px;
     }
 
-    span {
+    .icon {
       background-repeat: no-repeat;
       display: block;
       float: left;
-      margin-right: 15px;
       width: 90px;
       height: 90px;
     }
 
-    h2 {
+    .post-in-list-content {
+      margin-left: 105px;
+    }
+
+    h3 {
       color: $tnw-blue;
-      font-size: 1.4em;
-      margin-bottom: 5px;
+      margin: 0 0 5px;
     }
 
     p {
       color: #727272;
+      margin: 5px 0 0;
+    }
+
+    .post-meta {
+      font-size: .9em;
+    }
+
+    .post-date,
+    .post-author {
+      color: #333;
     }
   }
 }
@@ -127,4 +181,158 @@ p {
       background-image: image-url("molecule-#{$molecule}-#{$color}.png");
     }
   }
+}
+
+.tags {
+  @extend .clearfix;
+  margin: 10px 0;
+
+  li {
+    float: left;
+    margin: 0 10px 10px 0;
+
+    a {
+      color: $logo-gray;
+      display: block;
+      text-decoration: none;
+
+      span {
+        display: block;
+      }
+
+      .tag-name {
+        border: solid 1px #e3e3e3;
+        border-right: none;
+        float: left;
+        padding: 4px 7px;
+      }
+
+      .tag-count {
+        background: #e3e3e3;
+        float: right;
+        color: $logo-gray;
+        padding: 5px 8px;
+      }
+
+      &:hover,
+      &:focus {
+        .tag-name {
+          background: #e3e3e3;
+        }
+      }
+    }
+  }
+}
+
+.has-top {
+  position: relative;
+}
+
+.top {
+  font-size: 13px;
+  position: absolute;
+  top: 3px;
+  right: 0;
+}
+
+.projects li {
+  a {
+    @extend .clearfix;
+    color: $tnw-blue;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      @include background(linear-gradient(left, #efefef, #efefef 40%, rgba(255,255,255,0)));
+      border-left: solid 5px;
+      padding-left: 10px;
+    }
+
+    .icon {
+      display: block;
+      float: left;
+      margin-right: 15px;
+      width: 60px;
+      height: 60px;
+    }
+
+    h3 {
+      font-size: 1.4em;
+      margin: 0 0 5px;
+    }
+
+    p {
+      color: #727272;
+      margin: 5px 0 0;
+    }
+  }
+}
+
+.projects {
+  .js a:hover,
+  .js a:focus {
+    border-left-color: $tnw-blue;
+  }
+
+  .vim a:hover,
+  .vim a:focus {
+    border-left-color: $tnw-green;
+  }
+
+  .sublime a:hover,
+  .sublime a:focus {
+    border-left-color: $tnw-orange;
+  }
+
+  .general a:hover,
+  .general a:focus {
+    border-left-color: $logo-gray;
+  }
+}
+
+@each $type in js, vim, sublime, general {
+  .#{$type} .icon {
+    background: image-url("icon-#{$type}.png") no-repeat;
+  }
+}
+
+.post {
+  .post-meta {
+    color: #727272;
+    float: left;
+    font-size: .9em;
+    margin-top: 0;
+
+    span {
+      color: #333;
+    }
+  }
+
+  .readability {
+    float: right;
+  }
+
+  h3 {
+    margin-top: 20px;
+  }
+}
+
+.post-nav {
+  @extend .clearfix;
+  margin: 20px 0;
+
+  .prev {
+    float: left;
+  }
+
+  .next {
+    float: right;
+  }
+}
+
+.social {
+  float: right;
+  margin-top: 10px;
 }

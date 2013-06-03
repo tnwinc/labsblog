@@ -5,13 +5,9 @@ title: 'Recent Posts'
 {% include JB/setup %}
 
 <ul class="posts recent">
+  {% assign include_date = false %}
+  {% assign include_author = false %}
   {% for post in site.posts limit:10 %}
-    <li class="post-in-list {% cycle 'blue', 'green', 'orange' %}">
-      <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.title }}">
-        <span class="molecule-{% cycle 'caffeine', 'adrenaline', 'dopamine', 'acetaminophen' %}">&nbsp;</span>
-        <h2>{{ post.title }}</h2>
-        <p>{{ post.summary }}</p>
-      </a>
-    </li>
+    {% include themes/custom/post %}
   {% endfor %}
 </ul>
