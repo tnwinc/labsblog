@@ -91,7 +91,6 @@ code {
   padding: 3px 5px;
 }
 
-p code:first-child,
 pre code {
   display: block;
 }
@@ -378,25 +377,58 @@ hr {
   }
 }
 
+.post-meta {
+  color: #727272;
+  float: left;
+  font-size: .9em;
+  margin-top: 0;
+
+  span {
+    color: #333;
+  }
+}
+
+.readability {
+  float: right;
+}
+
 .post {
-  .post-meta {
-    color: #727272;
-    float: left;
-    font-size: .9em;
-    margin-top: 0;
-
-    span {
-      color: #333;
-    }
-  }
-
-  .readability {
-    float: right;
-  }
-
   h3 {
     margin-top: 20px;
   }
+
+  ul, ol {
+    margin: 10px;
+  }
+
+  li {
+    line-height: 1.5;
+    margin-left: 15px;
+  }
+
+  ul li {
+    list-style: disc;
+  }
+
+    li ul li {
+      list-style: circle;
+    }
+
+      li li ul li {
+        list-style: square;
+      }
+
+  ol li {
+    list-style: decimal;
+  }
+
+    li ol li {
+      list-style: upper-alpha;
+    }
+
+      li li ol li {
+        list-style: lower-roman;
+      }
 }
 
 .post-nav {
