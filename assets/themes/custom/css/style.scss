@@ -88,7 +88,16 @@ a:active {
 code {
   background: #f2f2f2;
   border: solid 1px #e3e3e3;
+  line-height: 1.5;
   padding: 3px 5px;
+}
+
+pre {
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 
 pre code {
@@ -392,6 +401,10 @@ hr {
     margin-top: 20px;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   ul, ol {
     margin: 10px;
   }
@@ -441,7 +454,6 @@ hr {
 
 .social {
   float: right;
-  margin-top: 10px;
 }
 
 @import "responsive";

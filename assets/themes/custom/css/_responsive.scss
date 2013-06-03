@@ -5,6 +5,31 @@
   .main {
     width: auto;
   }
+
+  .post-nav {
+    .prev,
+    .next {
+      float: none;
+    }
+
+    .next {
+      margin-top: 15px;
+      text-align: right;
+    }
+
+    a {
+      background: $tnw-orange;
+      color: #FFF;
+      display: block;
+      padding: 8px 12px;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        background: $tnw-green;
+      }
+    }
+  }
 }
 
 //
