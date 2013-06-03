@@ -2,17 +2,50 @@
 @import "compass";
 @import "compass/css3";
 
+@mixin if-min-resolution($dppx) {
+  @include if-resolution(min, $dppx) {
+    @content;
+  }
+}
+
+@mixin if-max-resolution($dppx) {
+  @include if-resolution(max, $dppx) {
+    @content;
+  }
+}
+
+@mixin if-resolution($prefix, $dppx) {
+  // 1px = 96dpi
+  $dpi: $dppx * 96;
+  @media
+    (-webkit-#{$prefix}-device-pixel-ratio: #{$dppx}),
+    (   #{$prefix}--moz-device-pixel-ratio: #{$dppx}),
+    (     -o-#{$prefix}-device-pixel-ratio: #{$dppx*2}/2),
+    (        #{$prefix}-device-pixel-ratio: #{$dppx}),
+    (                #{$prefix}-resolution: #{$dpi}dpi),
+    (                #{$prefix}-resolution: #{$dppx}dppx) {
+      @content;
+  }
+}
+
 $tnw-blue: #011f60;
 $tnw-green: #9ec26b;
 $tnw-orange: #f68122;
 $logo-gray: #565656;
 
 html {
-  background: #f8f8f8 image-url("body-bg.png") repeat-y;
+  background: #f8f8f8 image-url("body-bg.png") no-repeat;
 }
 
 body {
-  background: image-url("beakers.png") 100% 100% no-repeat;
+  background: 100% 100% no-repeat;
+  @include if-max-resolution(1.49) {
+    background-image: image-url("beakers.png");
+  }
+  @include if-min-resolution(1.5) {
+    background-image: image-url("beakers@2x.png");
+    background-size: 374px 354px;
+  }
   color: #333;
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -85,7 +118,14 @@ hr {
   margin-bottom: 20px;
 
   a {
-    background: image-url("logo.png") no-repeat;
+    background-repeat: image-url("logo.png") no-repeat;
+    @include if-max-resolution(1.49) {
+      background-image: image-url("logo.png");
+    }
+    @include if-min-resolution(1.5) {
+      background-image: image-url("logo@2x.png");
+      background-size: 200px 60px;
+    }
     display: block;
     text-indent: -9999px;
     width: 200px;
@@ -183,7 +223,13 @@ hr {
 @each $color in blue, green, orange {
   @each $molecule in caffeine, adrenaline, dopamine, acetaminophen {
     .#{$color} a .molecule-#{$molecule} {
-      background-image: image-url("molecule-#{$molecule}-#{$color}.png");
+      @include if-max-resolution(1.49) {
+        background-image: image-url("molecule-#{$molecule}-#{$color}.png");
+      }
+      @include if-min-resolution(1.5) {
+        background-image: image-url("molecule-#{$molecule}-#{$color}@2x.png");
+        background-size: 90px 90px;
+      }
     }
   }
 }
@@ -321,7 +367,14 @@ hr {
 
 @each $type in js, vim, sublime, general {
   .#{$type} .icon {
-    background: image-url("icon-#{$type}.png") no-repeat;
+    background-repeat: no-repeat;
+    @include if-max-resolution(1.49) {
+      background-image: image-url("icon-#{$type}.png");
+    }
+    @include if-min-resolution(1.5) {
+      background-image: image-url("icon-#{$type}@2x.png");
+      background-size: 60px 60px;
+    }
   }
 }
 
