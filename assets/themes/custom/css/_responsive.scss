@@ -36,15 +36,11 @@
 // <= 680
 //
 @media only screen and (max-width: 680px) {
-  .clearfix:before,.clearfix:after { content:""; display:table; }
-  .clearfix:after { clear:both; }
-
   html {
     background: #f8f8f8;
   }
 
   .header {
-    @extend .clearfix;
     background: #f2f2f2;
     border-bottom: solid 1px #eaeaea;
     position: static;
