@@ -37,5 +37,6 @@ Actually, they kind of did.
 Stone Bowl’s mushroom bibimbap was rated one of Creative Loafing’s Top 100 Dishes in Atlanta, in 2011 and 2013:
 http://clatl.com/atlanta/mushroom-bibimbap-at-woo-nam-jeong-stone-bowl-house/Content?oid=8024400
 I’m a meat person through-and-through, but after trying this mushroom variation, I am not looking back. 
-Read: this is THE dish to order here, second only to a plate of bulgogi (specially marinated grilled beef) you might want to share with some friends.
+####Read: this is THE dish to order here,
+second only to a plate of bulgogi (specially marinated grilled beef) you might want to share with some friends.
 
