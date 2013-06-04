@@ -12,5 +12,6 @@ Our corporate office in Norcross, Georgia, happens to be a few short miles west 
 
 And reproduced here, my official invitation to our most recent outing:
 ------------------------------------------------------------------------
-It’s been a solid few months since the last Buford Highway Eaters Club outing. We’re down a few good eaters, and looking for some new recruits.
-    For those not already in the club --- here’s what it’s all about: you enjoy good food? Great, me too, nice to meet you. You enjoy a little adventure? Of course you do. Join the club and expect a memorable lunch, not far from the office, that I’ve personally scouted, can vouch for, and even have a couple menu recommendations.
+>It’s been a solid few months since the last Buford Highway Eaters Club outing. We’re >down a few good eaters, and looking for some new recruits.
+>
+>For those not already in the club --- here’s what it’s all about: you enjoy good >food? Great, me too, nice to meet you. You enjoy a little adventure? Of course you >do. Join the club and expect a memorable lunch, not far from the office, that I’ve >personally scouted, can vouch for, and even have a couple menu recommendations.
