@@ -61,7 +61,10 @@ We had lots of orders of mushroom dolsot bibimbap, a few with kimchi pork, plent
 
 
 Until next time -- happy eating!
--Matthew F, 6/4/13
+
+-Matthew F, TNW Systems Engineer
+
+6/4/13
 
 ===========================================================================
 ###*This post's featured restaurant:*
