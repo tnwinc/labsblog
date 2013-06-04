@@ -41,7 +41,7 @@ And reproduced here, my official invitation to our most recent outing:
 >
 For those not already in the club --- here’s what it’s all about: you enjoy good food? Great, me too, nice to meet you. You enjoy a little adventure? Of course you do. Join the club and expect a memorable lunch, not far from the office, that I’ve personally scouted, can vouch for, and even have a couple menu recommendations.
 >
- ### This time we’re eating: Korean bibimbap at Woo Nam Jeong Stone Bowl.
+ <i>This time we’re eating: Korean bibimbap at Woo Nam Jeong Stone Bowl.</i>
 >
 >## For the uninitiated:
 >
@@ -71,6 +71,7 @@ Part of the fun and charm of this place is the fact that it’s a hole-in-the-wa
 ####PAYMENT: This place is CASH/CREDIT.
 ####SEATING: Plenty of seating, but no more than maybe 6-8 at a table so we may divvy up depending on turnout.
 ####DIETARY RESTRICTIONS: Vegetarian recommended.
+
 
 And here's the gang enjoying their meal
 ----------------------------------------
