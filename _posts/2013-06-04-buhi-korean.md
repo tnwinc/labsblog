@@ -1,5 +1,5 @@
 ---
-published: "false"
+published: "true"
 layout: post
 title: "Buford Highway Eater's Club"
 tags: 
