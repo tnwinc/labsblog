@@ -1,6 +1,5 @@
 ---
 published: "false"
-layout: default
 
 ---
 
