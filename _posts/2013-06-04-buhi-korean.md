@@ -79,11 +79,16 @@ We had lots of orders of mushroom dolsot bibimbap, a few with kimchi pork, plent
 
 ![bibimbap](http://clatl.com/imager/b/magnum/8030532/feb6/cover_vegetables8-1_52_Online_JC.jpg)
 (Above photo courtesy [CLAtl.com](http://clatl.com/atlanta/mushroom-bibimbap-at-woo-nam-jeong-stone-bowl-house/Content?oid=8024400))
+
+
 <a href="http://www.flickr.com/photos/96982400@N03/8952616706/" title="2013-06-04 BuHi Eaters Club by tnwmatthew, on Flickr"><img src="http://farm9.staticflickr.com/8280/8952616706_bcc0183307.jpg" width="500" height="333" alt="2013-06-04 BuHi Eaters Club"></a>
+
 
 <a href="http://www.flickr.com/photos/96982400@N03/8952615864/" title="2013-06-04 BuHi Eaters Club by tnwmatthew, on Flickr"><img src="http://farm6.staticflickr.com/5449/8952615864_d5d16900ab.jpg" width="500" height="332" alt="2013-06-04 BuHi Eaters Club"></a>
 
+
 <a href="http://www.flickr.com/photos/96982400@N03/8952618352/" title="2013-06-04 BuHi Eaters Club by tnwmatthew, on Flickr"><img src="http://farm4.staticflickr.com/3790/8952618352_ee734bd9f4.jpg" width="500" height="332" alt="2013-06-04 BuHi Eaters Club"></a>
+
 
 
 Until next time -- happy eating!
