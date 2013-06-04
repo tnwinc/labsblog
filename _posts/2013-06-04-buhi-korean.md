@@ -13,7 +13,9 @@ summary: The Club does Korean bibimbap.
 
 ---
 
+
 # The Buford Highway Eater's Club does Korean bibimbap
+
 
 ## First, some background, for our faithful blog-readers:
 Our corporate office in Norcross, Georgia, happens to be a few short miles west of Atlanta's legendary Buford Highway - a venerable cornucopia of international eateries. Expect anything from standing-room-only hole-in-the-wall joints to formal dining rooms, but do your research and know where you're going and what to order, and there's great eats to be had.
