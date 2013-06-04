@@ -39,4 +39,12 @@ http://clatl.com/atlanta/mushroom-bibimbap-at-woo-nam-jeong-stone-bowl-house/Con
 I’m a meat person through-and-through, but after trying this mushroom variation, I am not looking back. 
 ####Read: this is THE dish to order here,
 second only to a plate of bulgogi (specially marinated grilled beef) you might want to share with some friends.
+>
+>###Buford Highway? Won’t I catch a disease? 
+Part of the fun and charm of this place is the fact that it’s a hole-in-the-wall joint. So if you drive only in the right-hand-lane, drink with an extended pinky finger, or aren’t usually up for an adventure, it might be time for you to man up.
+>
+####PAYMENT: This place is CASH/CREDIT.
+####SEATING: Plenty of seating, but no more than maybe 6-8 at a table so we may divvy up depending on turnout.
+####DIETARY RESTRICTIONS: Vegetarian recommended.
+
 
