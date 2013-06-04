@@ -52,9 +52,9 @@ second only to a plate of bulgogi (specially marinated grilled beef) you might w
 ### Buford Highway? Won’t I catch a disease? 
 Part of the fun and charm of this place is the fact that it’s a hole-in-the-wall joint. So if you drive only in the right-hand-lane, drink with an extended pinky finger, or aren’t usually up for an adventure, it might be time for you to man up.
 
-  * PAYMENT: This place is CASH/CREDIT.
-  * SEATING: Plenty of seating, but no more than maybe 6-8 at a table so we may divvy up depending on turnout.
-  * DIETARY RESTRICTIONS: Vegetarian recommended.
+* PAYMENT: This place is CASH/CREDIT.
+* SEATING: Plenty of seating, but no more than maybe 6-8 at a table so we may divvy up depending on turnout.
+* DIETARY RESTRICTIONS: Vegetarian recommended.
 
 
 ## And here's the gang enjoying their meal
