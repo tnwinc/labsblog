@@ -13,5 +13,4 @@ summary: The Club does Korean bibimbap.
 
 ---
 
-The Buford Highway Eater's Club does Korean bibimbap
-====================================================
+# The Buford Highway Eater's Club does Korean bibimbap
