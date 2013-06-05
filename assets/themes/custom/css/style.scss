@@ -63,8 +63,22 @@ h2 {
 }
 
 h3 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin-bottom: 10px;
+}
+
+h4,h5,h6 {
+  color: #565656;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: .9em;
 }
 
 p {
@@ -83,6 +97,14 @@ a:focus,
 a:active {
   color: $tnw-green;
   text-decoration: underline;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+em, i {
+  font-style: italic;
 }
 
 code {
@@ -109,6 +131,11 @@ hr {
   border: none;
   border-top: solid 1px #d3d3d3;
   margin: 20px 0;
+}
+
+blockquote {
+  border-left: solid 3px #d3d3d3;
+  padding-left: 15px;
 }
 
 .clearfix:before,.clearfix:after { content:""; display:table; }
