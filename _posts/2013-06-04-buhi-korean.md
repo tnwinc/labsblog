@@ -76,4 +76,4 @@ Until next time -- happy eating!
 
 #### Woo Nam Jeong Stone Bowl House, Buford Hwy
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=woo+nam+jeong&amp;aq=&amp;sll=32.678125,-83.178297&amp;sspn=7.90256,16.907959&amp;ie=UTF8&amp;hq=woo+nam+jeong&amp;hnear=&amp;t=m&amp;cid=4749935897933074595&amp;ll=34.0811,-84.245911&amp;spn=0.398097,0.583649&amp;z=10&amp;iwloc=A&amp;output=embed"></iframe>
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=woo+nam+jeong&amp;aq=&amp;sll=32.678125,-83.178297&amp;sspn=7.90256,16.907959&amp;ie=UTF8&amp;hq=woo+nam+jeong&amp;hnear=&amp;t=m&amp;cid=4749935897933074595&amp;ll=34.0811,-84.245911&amp;spn=0.398097,0.583649&amp;z=10&amp;iwloc=A&amp;output=embed">&nbsp;</iframe>
