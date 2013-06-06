@@ -399,9 +399,14 @@ blockquote {
   .general a:focus {
     border-left-color: $logo-gray;
   }
+
+  .ios a:hover,
+  .ios a:focus {
+    border-left-color: #000;
+  }
 }
 
-@each $type in js, vim, sublime, general {
+@each $type in js, vim, sublime, general, ios {
   .#{$type} .icon {
     background-repeat: no-repeat;
     @include if-max-resolution(1.49) {
