@@ -209,14 +209,6 @@ blockquote {
       padding-left: 15px;
     }
 
-    .icon {
-      background-repeat: no-repeat;
-      display: block;
-      float: left;
-      width: 90px;
-      height: 90px;
-    }
-
     .post-in-list-content {
       margin-left: 105px;
     }
@@ -257,15 +249,38 @@ blockquote {
   border-left-color: $tnw-orange;
 }
 
-@each $color in blue, green, orange {
-  @each $molecule in caffeine, adrenaline, dopamine, acetaminophen {
+$molecules: caffeine, adrenaline, dopamine, acetaminophen;
+$colors: blue, green, orange;
+$molecule-size: 90px;
+
+.molecule {
+  background-repeat: no-repeat;
+  display: block;
+  float: left;
+  width: $molecule-size;
+  height: $molecule-size;
+
+  @include if-max-resolution(1.49) {
+    background-image: image-url("molecule-sprite.png");
+  }
+  @include if-min-resolution(1.5) {
+    background-image: image-url("molecule-sprite@2x.png");
+    background-size: ($molecule-size * length($molecules)) ($molecule-size * length($colors));
+  }
+}
+
+@for $x from 1 through length($molecules) {
+  $molecule: nth($molecules, $x);
+
+  @for $y from 1 through length($colors) {
+    $color: nth($colors, $y);
+
     .#{$color} a .molecule-#{$molecule} {
       @include if-max-resolution(1.49) {
-        background-image: image-url("molecule-#{$molecule}-#{$color}.png");
+        background-position: (-1 * $molecule-size * ($x - 1)) (-1 * $molecule-size * ($y - 1));
       }
       @include if-min-resolution(1.5) {
-        background-image: image-url("molecule-#{$molecule}-#{$color}@2x.png");
-        background-size: 90px 90px;
+        background-position: (-1 * $molecule-size * 2 * ($x - 1)) (-1 * $molecule-size * 2 * ($y - 1));
       }
     }
   }

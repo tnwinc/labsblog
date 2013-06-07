@@ -1,6 +1,6 @@
 <li class="post-in-list {% cycle 'blue', 'green', 'orange' %}">
   <a href="{{ BASE_PATH }}{{ post.url }}" title="{{ post.title }}">
-    <span class="icon molecule-{% cycle 'caffeine', 'adrenaline', 'dopamine', 'acetaminophen' %}">&nbsp;</span>
+    <span class="molecule molecule-{% cycle 'caffeine', 'adrenaline', 'dopamine', 'acetaminophen' %}">&nbsp;</span>
     <div class="post-in-list-content">
       <h3>{{ post.title }}</h3>
       <p class="post-summary">{{ post.summary }}</p>
