@@ -204,7 +204,8 @@ blockquote {
     &:hover,
     &:focus {
       @include background(linear-gradient(left, #efefef, #efefef 40%, rgba(255,255,255,0)));
-      border-left: solid 5px;
+      border-left-width: 5px;
+      border-left-style: solid;
       padding-left: 15px;
     }
 
@@ -352,7 +353,8 @@ blockquote {
     &:hover,
     &:focus {
       @include background(linear-gradient(left, #efefef, #efefef 40%, rgba(255,255,255,0)));
-      border-left: solid 5px;
+      border-left-width: 5px;
+      border-left-style: solid;
       padding-left: 10px;
     }
 
@@ -379,42 +381,37 @@ blockquote {
   }
 }
 
+$icon-types:   js,        vim,        sublime,     general,    ios;
+$hover-colors: $tnw-blue, $tnw-green, $tnw-orange, $logo-gray, #000;
+$icon-size: 60px;
+
 .projects {
-  .js a:hover,
-  .js a:focus {
-    border-left-color: $tnw-blue;
-  }
-
-  .vim a:hover,
-  .vim a:focus {
-    border-left-color: $tnw-green;
-  }
-
-  .sublime a:hover,
-  .sublime a:focus {
-    border-left-color: $tnw-orange;
-  }
-
-  .general a:hover,
-  .general a:focus {
-    border-left-color: $logo-gray;
-  }
-
-  .ios a:hover,
-  .ios a:focus {
-    border-left-color: #000;
+  .icon {
+    @include if-max-resolution(1.49) {
+      background-image: image-url("icon-sprite.png");
+      background-repeat: no-repeat;
+    }
+    @include if-min-resolution(1.5) {
+      background-image: image-url("icon-sprite@2x.png");
+      background-size: $icon-size ($icon-size * length($icon-types));
+    }
   }
 }
 
-@each $type in js, vim, sublime, general, ios {
+@for $i from 1 through length($icon-types) {
+  $type: nth($icon-types, $i);
+
+  .#{$type} a:hover,
+  .#{$type} a:focus {
+    border-left-color: nth($hover-colors, $i);
+  }
+
   .#{$type} .icon {
-    background-repeat: no-repeat;
     @include if-max-resolution(1.49) {
-      background-image: image-url("icon-#{$type}.png");
+      background-position: 0 (-1 * $icon-size * ($i - 1));
     }
     @include if-min-resolution(1.5) {
-      background-image: image-url("icon-#{$type}@2x.png");
-      background-size: 60px 60px;
+      background-position: 0 (-1 * $icon-size * 2 * ($i - 1));
     }
   }
 }
