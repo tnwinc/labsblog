@@ -276,12 +276,7 @@ $molecule-size: 90px;
     $color: nth($colors, $y);
 
     .#{$color} a .molecule-#{$molecule} {
-      @include if-max-resolution(1.49) {
-        background-position: (-1 * $molecule-size * ($x - 1)) (-1 * $molecule-size * ($y - 1));
-      }
-      @include if-min-resolution(1.5) {
-        background-position: (-1 * $molecule-size * 2 * ($x - 1)) (-1 * $molecule-size * 2 * ($y - 1));
-      }
+      background-position: (-1 * $molecule-size * ($x - 1)) (-1 * $molecule-size * ($y - 1));
     }
   }
 }
@@ -422,12 +417,7 @@ $icon-size: 60px;
   }
 
   .#{$type} .icon {
-    @include if-max-resolution(1.49) {
-      background-position: 0 (-1 * $icon-size * ($i - 1));
-    }
-    @include if-min-resolution(1.5) {
-      background-position: 0 (-1 * $icon-size * 2 * ($i - 1));
-    }
+    background-position: 0 (-1 * $icon-size * ($i - 1));
   }
 }
 
