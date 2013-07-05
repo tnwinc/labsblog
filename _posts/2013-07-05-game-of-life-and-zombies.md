@@ -2,7 +2,7 @@
 title: "Game of Life ... and Zombies!"
 layout: post
 tags: [programming, balance]
-published: false
+published: true
 author: James Maroney
 mail: "jamesmaroney@tnwinc.com"
 summary: When you don't feel like programming, program something fun!
