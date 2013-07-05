@@ -13,6 +13,9 @@ summary: When you don't feel like programming, program something fun!
 Check out this ridiculously simple game I had a ton of fun making: [The
 Game of Life ... and Zombies!](http://jamesmaroney.github.io/game-of-life)
 
+![Gameplay](/screenshots/game-of-life-and-zombies/game.png "The Zombies
+are winning!")
+
 After returning to work after my father passed away, I found it really difficult to focus on my work. I felt like I just
 didn't want to program. I would try to think about the problem set at hand, but my mind would end up wandering. I knew that
 if I could just capture my muse, I could get back into the groove.
