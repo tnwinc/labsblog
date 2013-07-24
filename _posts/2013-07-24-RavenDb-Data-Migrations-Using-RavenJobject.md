@@ -2,10 +2,10 @@
 title: "RavenDB Data Migrations Made Easy With RavenJObjects!"
 layout: post
 tags: [ravendb, migration, json, RavenJObject]
-published: false
+published: true
 author: Randall Borck
 mail: "randallborck@tnwinc.com"
-summary: Migrating Raven documents to match your object structure...without Script???
+summary: "Migrating Raven documents to match your object structure...without Script?"
 ---
 
 In many cases, migrations are simple. Either you can do a lazy migration, or you may be able to do "Evil" patching as blogged about by Ayende [here](http://ayende.com/blog/157185/awesome-ravendb-feature-of-the-day-evil-patching). Unfortunately, I was not able to use this patching method, so I needed another way...Lazy migrations could work for this, but that requires the addition of a new property (which was going to add some complexity) and then requires that we touch every entity before removing the old storage mechanism anyway. Not removing the old property also causes object bloat, and that may be fine for some cases, but I wanted it to end clean by the time I was finished. Suppose you have a document as follows:
