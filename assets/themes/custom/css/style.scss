@@ -57,9 +57,14 @@ body {
   margin: 20px;
 }
 
+.post-wrap {
+  margin: 30px 20px 20px 40px;
+}
+
 h2 {
   font-size: 1.6em;
-  margin-bottom: 20px;
+  line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 h3 {
@@ -82,8 +87,8 @@ h6 {
 }
 
 p {
-  line-height: 1.5;
-  margin: 10px 0;
+  line-height: 1.6;
+  margin: 15px 0;
 }
 
 a:link,
@@ -194,6 +199,10 @@ blockquote {
   width: 730px;
 }
 
+.posts-index {
+  padding-top: 20px;
+}
+
 .post-in-list {
   a {
     @extend .clearfix;
@@ -302,7 +311,6 @@ $molecule-size: 90px;
 
 .tags {
   @extend .clearfix;
-  margin: 10px 0;
 
   li {
     float: left;
