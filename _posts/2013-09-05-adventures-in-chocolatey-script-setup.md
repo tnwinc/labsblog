@@ -17,8 +17,7 @@ summary: "Lessons learned, people cursed, and adventures in setting up a new dev
 ### What is Chocolatey
 
 From the site:
-> [Chocolatey](http://chocolatey.org/) is a global PowerShell execution engine using the NuGet packaging infrastructure. Think of it as the ultimate automation tool for Windows.  Chocolatey is like apt-get, but built with Windows in mind (there are differences and limitations). For those unfamiliar with apt/debian, think about chocolatey as a global silent installer for applications and tools. It can also do configuration tasks and anything that you can do with PowerShell. The power you hold with a tool like chocolatey is only limited by your imagination!  You can develop your tools and applications with NuGet, and release them with chocolatey!
-But chocolatey is not just for .NET tools. It's for nearly any windows application/tool!
+> [Chocolatey](http://chocolatey.org/) is a global PowerShell execution engine using the NuGet packaging infrastructure. Think of it as the ultimate automation tool for Windows.  Chocolatey is like apt-get, but built with Windows in mind (there are differences and limitations). For those unfamiliar with apt/debian, think about chocolatey as a global silent installer for applications and tools. It can also do configuration tasks and anything that you can do with PowerShell. The power you hold with a tool like chocolatey is only limited by your imagination!  You can develop your tools and applications with NuGet, and release them with chocolatey! But chocolatey is not just for .NET tools. It's for nearly any windows application/tool!
 
 In more human/less techy words, Chocolatey is a collection of software that you can call to download and install apps inside of a script.  It will automatically download and then install the software to your machine.  This will save you the time of finding the download, downloading it, and then installing it to your machine.
 
