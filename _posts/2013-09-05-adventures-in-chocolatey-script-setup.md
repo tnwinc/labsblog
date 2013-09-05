@@ -2,7 +2,7 @@
 title: "Adventures In Chocolatey Script Machine Setup"
 layout: post
 tags: [text, procedural, generation]
-published: false
+published: true
 author: Chris Kelly
 mail: "chriskelly@tnwinc.com"
 summary: "Lessons learned, people cursed, and adventures in setting up a new development machine using a Chocolatey Script."
