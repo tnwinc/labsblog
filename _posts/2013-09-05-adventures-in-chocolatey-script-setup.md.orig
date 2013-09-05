@@ -1,10 +1,14 @@
 ---
 title: Adventures In Chocolatey Script Machine Setup
 layout: post
+<<<<<<< HEAD
+tags: [text, procedural, generation]
+=======
 tags: 
   - text
   - procedural
   - generation
+>>>>>>> f9cfc296c9cef17b0a07e6766176ee3cbecede55
 published: true
 author: Chris Kelly
 mail: "chriskelly@tnwinc.com"
