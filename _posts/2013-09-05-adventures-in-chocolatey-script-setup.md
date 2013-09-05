@@ -1,12 +1,16 @@
 ---
-title: "Adventures In Chocolatey Script Machine Setup"
+title: Adventures In Chocolatey Script Machine Setup
 layout: post
-tags: [text, procedural, generation]
-published: false
+tags: 
+  - text
+  - procedural
+  - generation
+published: true
 author: Chris Kelly
 mail: "chriskelly@tnwinc.com"
 summary: "Lessons learned, people cursed, and adventures in setting up a new development machine using a Chocolatey Script."
 ---
+
 ### What is Chocolatey
 Chocolatey is a global PowerShell execution engine using the NuGet packaging infrastructure. Think of it as the ultimate automation tool for Windows.  Chocolatey is like apt-get, but built with Windows in mind (there are differences and limitations). For those unfamiliar with apt/debian, think about chocolatey as a global silent installer for applications and tools. It can also do configuration tasks and anything that you can do with PowerShell. The power you hold with a tool like chocolatey is only limited by your imagination!  You can develop your tools and applications with NuGet, and release them with chocolatey!
 But chocolatey is not just for .NET tools. It's for nearly any windows application/tool!
@@ -50,4 +54,3 @@ Although you are ready to run, you still have to do any of your configuration se
 
 ###Overall feelings
 Still undecided on if this way was easier or not.  There was a lot of trial and error, rolling back to the check point, and calling over the developer who designed the script to figure out what is going wrong.  It did get everything installed and running.  Did it do it faster than downloading and installing each item by themselves?  I think that is still up in the air.  I guess time will tell as someone else tries to use the script.  Hopefully the tweaks I have in the comments, help out the next time.
-
