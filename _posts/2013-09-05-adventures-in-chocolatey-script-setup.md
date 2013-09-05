@@ -2,9 +2,12 @@
 title: Adventures In Chocolatey Script Machine Setup
 layout: post
 tags: 
-  - text
-  - procedural
-  - generation
+  - chocolatey
+  - setup
+  - suffering
+  - bootstrapping
+  - powershell
+  - productivity
 published: true
 author: Chris Kelly
 mail: "chriskelly@tnwinc.com"
