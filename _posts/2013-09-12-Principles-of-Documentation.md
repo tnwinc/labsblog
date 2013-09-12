@@ -2,7 +2,7 @@
 title: "Principles of Documentation"
 layout: post
 tags: [documentation, development, best, practices]
-published: false
+published: true
 author: Randall Borck
 mail: "randallborck@tnwinc.com"
 summary: Learning how to utilize documentation and realizing the benefits is a big part of growing a successful company.
