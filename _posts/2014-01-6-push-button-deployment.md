@@ -2,7 +2,7 @@
 title: "Push Button Deployment - Literally"
 layout: post
 tags: [hardware, launchpad, arduino, 3D printing, teamcity, deploy]
-published: false
+published: true
 author: Mark Crow
 mail: "MarkCrow@tnwinc.com"
 summary: A simple, yet overkill project utilizing various rapid prototyping systems to create a fun USB device.
@@ -22,12 +22,16 @@ The code very simply checks the status of each key switch, sends power to the ar
 
 ![prototype](/screenshots/launch_box/prototype.jpg "Prototype design.")
 
-Cardboard and hot glue makes a decent placeholder, but we wanted something a bit more durable. The enclosure could be brushed metal via CNC mill, dark shade Plexiglas via CNC laser cutter or 3D printed in ABS plastic. I went with 3D printing because I hadn't tried something that large on my printer. My currently preferred tool for designing primitive based 3D models is SketchUp. In very little time the enclosure was ready to print. However, I ran into several issues with the print because of ABS's dimensional instability. I had edges curl and layers separate, but the end result was acceptable. The silver lining was these issues triggered several upgrade projects to my printer. Adding a magnetic Plexiglas enclosure helped with layer separation and a heated glass platform coated with AquaNet / ABS slurry helped with edge curling. The layer gaps could be filled with ABS "putty" by adding more plastic to the ABS and acetone slurry. The enclosure will eventually be artificially distressed to give it a more industrial look.
+Cardboard and hot glue makes a decent placeholder, but we wanted something a bit more durable. The enclosure could be brushed metal via CNC mill, dark shade Plexiglas via CNC laser cutter or 3D printed in ABS plastic. I went with 3D printing because I hadn't tried something that large on my printer. My currently preferred tool for designing primitive based 3D models is SketchUp. In very little time the enclosure was ready to print. 
 
 ![sketchup](/screenshots/launch_box/sketchup_model.jpg "Sketchup model.")
 
-Now that the electronics had a place to live, it was time to ditch the breadboard for a soldered PCB. I didn't want to etch the PCB, so I instead left the breadboard headers in place and ran bus style connections. Normally you wouldn't design the circuit like this, but this wasn't serious business.
+Unfortunately, I ran into several issues with the print because of ABS's dimensional instability. I had edges curl and layers separate, but the end result was acceptable. The silver lining was these issues triggered several upgrade projects to my printer. Adding a magnetic Plexiglas enclosure helped with layer separation and a heated glass platform coated with AquaNet / ABS slurry helped with edge curling. The layer gaps could be filled with ABS "putty" by adding more plastic to the ABS and acetone slurry. The enclosure will eventually be artificially distressed to give it a more industrial look.
+
+Now that the electronics had a place to live, it was time to ditch the breadboard for a soldered PCB. I didn't want to etch the PCB, so I instead left the breadboard headers in place and ran bus style connections. Normally you wouldn't design the circuit like this, but this wasn't serious business. 
 
 ![wiring](/screenshots/launch_box/wiring.jpg "Device wiring.")
+
+We turned the keys, hit the button and off went the deploy to a QA environment. The device can easily be reconfigured or repurposed as needed.
 
 ![device](/screenshots/launch_box/final.jpg "Device hooked up to workstation.")
