@@ -17,7 +17,7 @@ The headers that are added to the beginning give the parser all the information 
     mail: "YourEmailAddress@tnwinc.com"
     summary: The text summary of your blog post goes here!
     ---
-    
+
 ## Publishing Your Blog Post
 Once your blog post has been reviewed and tweaked in such a way that you are ready for it to go live, simply change the published attribute in the header to true.
 
@@ -26,3 +26,4 @@ It is best to proof your blog before publishing, but you can always tweak the bl
 
 ### Prose.io
 One way to proof your blog before it is published is to use [prose.io](http://prose.io/). You can log in using your github account. The upside to this approach is it is fast, easy, and integrates directly with github. The downside of this is that it does not use the same rendering engine that the public blog uses, so things like code blocks or other sections may look a little different when rendered into the blog.
+
