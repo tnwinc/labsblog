@@ -26,7 +26,8 @@ He did not invent it in order to take advantage of the stack (kind of like how w
 
 He invented it because it was a POWERFUL, PRECISE WAY OF THINKING. It fell under the umbrella of FORMAL MATHEMATICS, which is really just a collection of powerful, precise ways of thinking that help people reason out certain difficult problems.
 
-He had never seen spaghetti code, or mutliple threads clobbering a mutable variable. He was free to reason through the problems however he wanted to. But he came to prefer an approach that he felt was PARTICULARLY POWERFUL, which involved a “stack-like” series of transformations (aka, “function application”). It wasn’t a compromise to him. It was empowering.
+He had never seen spaghetti code, or mutliple threads clobbering a mutable variable. He was free to reason through the problems however he wanted to. But he came to prefer an approach that he felt was PARTICULARLY POWERFUL, which involved a “stack-like” series of transformations (aka, “function application”). It wasn’t a _compromise_ to him. It was empowering.
+
 When you come to functional programming via structured/imperative programming (as I did and probably most programmers did), it’s easy to feel like the claim is, “If you stop using some of the core features you’re used to, you’ll be better off.” If you’re open minded, you’re willing to try it.
 
 But the real claim functional programming makes is much stronger: “This is a more powerful way to think. You will be able to handle more complexity, and reach solutions faster, and maintain them more easily, because this is a more powerful way to think.” And it was this misguided notion of where the idea for a stack came from that was blocking me from seeing that.
