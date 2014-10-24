@@ -1,11 +1,12 @@
 ---
-title: "The Stack is a Much Deeper Concept than GOSUB"
+title: The Stack is a Much Deeper Concept than GOSUB
 layout: post
-tags: [functional-programming]
+tags: 
+  - "functional-programming"
 published: true
 author: Charlie Flowers
 mail: "cflowers@tnwinc.com"
-summary: Major AHA moment about functional programming!
+summary: "Major AHA moment about functional programming!"
 ---
 
 _(I just had an AHA! moment. I’m excited about it. It’s valuable and I want to share it. Warning: I USE CAPS a lot when I’m having an aha moment. If you think that’s childish or unprofessional, sue me. I could not care less. If you appreciate a powerful insight communicated enthusiastically, then read on!)_
