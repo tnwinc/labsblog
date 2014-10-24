@@ -9,6 +9,8 @@ mail: "cflowers@tnwinc.com"
 summary: "Major AHA moment about functional programming!"
 ---
 
+{% include JB/setup %}
+
 _(I just had an AHA! moment. I’m excited about it. It’s valuable and I want to share it. Warning: I USE CAPS a lot when I’m having an aha moment. If you think that’s childish or unprofessional, sue me. I could not care less. If you appreciate a powerful insight communicated enthusiastically, then read on!)_
 
 I learned BASIC before any other language. So I’ve always thought the stack was “what it takes to allow for gosub.” And ever since then, as I learned many different languages, there have always been features that use the stack (mostly, function calls).
