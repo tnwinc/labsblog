@@ -33,6 +33,6 @@ He had never seen spaghetti code, or mutliple threads clobbering a mutable varia
 
 When you come to functional programming via structured/imperative programming (as I did and probably most programmers did), it’s easy to feel like the claim is, “If you stop using some of the core features you’re used to, you’ll be better off.” If you’re open minded, you’re willing to try it.
 
-But the real claim functional programming makes is much stronger: **“This is a more powerful way to think. You will be able to handle more complexity, and reach solutions faster, and maintain them more easily, because this is a more powerful way to think.”** And it was this misguided notion of where the idea for a stack came from that was blocking me from seeing that. (I knew the history, but I never noticed my fuzzy thinking about the stack concept).
+But the real claim functional programming makes is much stronger: **“This is a more powerful way to think. You will be able to handle more complexity, and reach solutions faster, and maintain them more easily, because this is a more powerful way to think.”** And it was this misguided notion of where the idea for a stack came from that was blocking me from seeing that. (I knew the history, but I learned GOSUB first, and the history later, and I "reindexed my brain" regarding the concept of the stack).
 
 _(Edit: By the way, I was working through “The Little Schemer” in Clojure when this insight hit me.)_
