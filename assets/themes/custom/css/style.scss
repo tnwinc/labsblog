@@ -399,8 +399,8 @@ $molecule-size: 90px;
   }
 }
 
-$icon-types:   js,        vim,        sublime,     general,    ios;
-$hover-colors: $tnw-blue, $tnw-green, $tnw-orange, $logo-gray, #000;
+$icon-types:   js,        vim,        sublime,       general,       ios,   adobe;
+$hover-colors: $tnw-blue, $tnw-green, $tnw-orange,   $logo-gray,    #000,  $logo-gray;
 $icon-size: 60px;
 
 .projects {
