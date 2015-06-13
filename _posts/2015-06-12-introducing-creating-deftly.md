@@ -13,7 +13,7 @@ summary: "Creating Deftly is an open source project devoted to making automation
 Most Adobe tools have a javascript api for automation. And all of them are rather verbose. Method naming conventions can very from app to app. Some apps are running old outdated versions of ecmascript. For example, Illustrator doesn't natively support `JSON.parse()/stringify()` or `Object.keys()` to name a few. Furthermore, most methods don't return anything useful, so chaining is out of the question. All of this makes for clunky code that can be hard to read and a pain to write.
 
 Enter [Creating-Deftly.](https://github.com/tnwinc/creating-deftly)
-![logo](https://github.com/tnwinc/creating-deftly/blob/master/resources/artwork/CreatingDeftly_Logo.png "creating-deftly logo")
+![logo](/screenshots/creating-deftly/CreatingDeftly_Logo.png "creating-deftly logo")
 
 Our project aims to unify concepts wherever possible in a consistent declarative api. For example, `openFile(path)` is a method you should be able to call in any application. Not just that, it should also return you the object for the file you just opened.
 
