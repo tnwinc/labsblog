@@ -8,8 +8,6 @@ mail: "adamrmoss@gmail.com"
 summary: A silly love letter to C♯
 ---
 
-## C♯, I still love you, Dearest
-
 Oh C♯, we've been together for about 8 years now, but I'm still very much in love with you.  You know it was your reifiable generics that attracted me to you in the first place, but once I moved into Visual Studio I was there to stay, even though your awesome pad is in Windowsland.  ReSharper was an expensive addition, totally worth it, its absymal test runner notwithstanding.  This environment makes it such a joy to edit and debug code: thanks to your static semantics, the refactoring are a breeze, edge cases handled shockingly well; stack traces for any reasonable library give me readable exceptions (unlike that incoherrent DudeBro, Ruby); watches and inspections are easy and intuitive.  With git version control and my comfortable IDE I am absolutely fearless.  Maybe I should buy you that overpriced TestDriven plugin you've been hankering for for so long, might iron out the last wrinkle...
 
 Because I truly appreciate everything you do for me.  You've consistently found ways to make my work easier and every new language version has taken an idiom that I use and turned it into a language construct: implicitly typed local variables, object/collection initializers, autoproperties, lambda property/method definitions, and now the nameof operator.  I didn't even know that I wanted LINQ until you surprised me with it for my 29th birthday!  When I told you I was into functional programming, you were willing to experiment, and I don't care that you're medium-terrible at it.  Unlike some other linguas I could mention...
