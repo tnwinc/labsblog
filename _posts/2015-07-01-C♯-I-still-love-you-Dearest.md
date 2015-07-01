@@ -19,4 +19,5 @@ That's right; I can't pretend that I haven't examined my options: Clojure has pe
 It's a good routine we've built together and we've compromised on each other's habits exactly as much as a healthy couple should.  You are my best creative partner and we will build many more great projects together.  And as far as I'm concerned, your special son PowerShell can live with us for as long as he needs, even indefinitely.  Everyone around the shop loves him and knows he gets a lot done, in his own peculiar way; we just ask him to sit on a towel.
 
 ### To another 8 years together, My Love!
+
 #### Adam
