@@ -1,12 +1,15 @@
 ---
-title: "Windows 10 VPN Remote Gateway Fix"
+title: Windows 10 VPN Remote Gateway Fix
 layout: post
-tags: [windows10, vpn]
-published: false
+tags: 
+  - windows10
+  - vpn
+published: true
 author: David Carroll
 mail: "david.carroll@websocially.com"
 summary: Commandline work around to configure VPN connection to use local network for internet on Windows 10.
 ---
+
 
 For those of you using Windows 10, you are likely unable to access the internet via your local network while connected to the VPN.  This is typically easy to resolve by following the instructions in this [article](http://www.nextofwindows.com/how-to-use-local-internet-connection-to-access-internet-while-still-connected-with-vpn).
 
