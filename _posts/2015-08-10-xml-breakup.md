@@ -9,8 +9,6 @@ mail: "douglewis@tnwinc.com"
 summary: I learned a few things trying to break up a gigantic XML file
 ---
 
-## Breaking up (an XML File) is hard to do
-
 I recently had a need to break up a large XML file.  We were getting import records with hundreds of thousands of entries and loading a single XML file with that much data was grinding processes to a halt.  I decided to whip up some Powershell to chunk these large files into smaller ones so the processing could go faster and so folks could open them in text editors to look at them with crashing their computers.  I expected this to be an easy task, but it was actually fairly daunting.  After a lot of Googling, I wound up with some code that did what I wanted and I want to walk through it.
 
 	Function Batch-XMLFile {
