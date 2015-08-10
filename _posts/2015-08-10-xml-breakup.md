@@ -1,13 +1,8 @@
 ---
-published: true
----
-
-
-
----
 title: "Breaking up (an XML File) is hard to do"
 layout: post
-tags: [tag1, tag2]
+tags: 
+  - xml
 published: true
 author: Doug Lewis
 mail: "douglewis@tnwinc.com"
