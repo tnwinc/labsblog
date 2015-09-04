@@ -29,4 +29,5 @@ When I work from home, I can hear how stressful my wife's day is. When I take br
 
 Under normal work environments when you commute to an office every day, the stresses add up. After a few years, it's time for a change. Now that I'm working from home, I no longer have those same stresses adding up. I no longer have the desire to find another job that is going to make me face the traffic and reintroduce the extra family stresses that come along with that.
 
-Telecommuting. It's good for the environment. It's good for your family. It's good for the company. It's a no-brainer. Still having trouble convincing your employer and have 1337 computer skills? Come [work for The Network](https://www.tnwinc.com/careers/product-development-opportunities/), a NAVEX Global company! 
+##Telecommuting. It's good for the environment. It's good for your family. It's good for the company. It's a no-brainer.
+Still having trouble convincing your employer and have 1337 computer skills? Come [work for The Network](https://www.tnwinc.com/careers/product-development-opportunities/), a NAVEX Global company! 
