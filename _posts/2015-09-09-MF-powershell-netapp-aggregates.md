@@ -39,8 +39,8 @@ Digging around in OCSM, you'll see that if you click into 'Disks', you'll see an
 
 You can see from the output of the above command, the disk is telling us the aggregate it belongs to. But there is also a property returned called `EffectiveDiskType`. Great!
 
-> _You'll see there are actually two properties for disks indicating their type; **DiskType** and **EffectiveDiskType.** Digging into this further revealed a NetApp Support doc,_ [How you can use effective Data ONTAP disk type for mixing HDDs:]
-(https://library.netapp.com/ecmdocs/ECMP1203768/html/html/GUID-149D31D4-D0F5-47C6-A19E-E77B8A12C971.html)
+> _You'll see there are actually two properties for disks indicating their type; **DiskType** and **EffectiveDiskType.** Digging into this further revealed a NetApp Support doc,_ 
+[How you can use effective Data ONTAP disk type for mixing HDDs:](https://library.netapp.com/ecmdocs/ECMP1203768/html/html/GUID-149D31D4-D0F5-47C6-A19E-E77B8A12C971.html)
 
 > _`Certain Data ONTAP disk types are considered equivalent for the purposes of creating and adding to aggregates, and managing spares. Data ONTAP assigns an effective disk type for each disk type. You can mix HDDs with the same effective disk type.`_ 
 
