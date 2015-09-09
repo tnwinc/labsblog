@@ -7,7 +7,7 @@ author: Matthew Fugel
 mail: "matthewfugel@tnwinc.com"
 summary: The easy way, vs the right way. Building a more bullet-proof method of selecting aggregates on NetApp, via Powershell
 ---
-_My name is Matthew, and I'm a systems engineer on the IT Network Operations team; one of my day-to-day roles is storage administration. This post covers a sub-set of a Powershell script I was working on to make my life easier, but I found the challenge and the process of discovery to be worth sharing._
+_My name is Matthew, and I'm a systems engineer on the IT Network Operations team; one of my day-to-day roles is storage administration. This post covers a sub-set of a Powershell script I was working on to make my life easier, but I found the challenge and the process of discovery to be worth sharing. You can find more of my writings [at my blog, here.](http://matthewfugel.wordpress.com)_
 
 [![Give me all the disks of a certain flavor](https://matthewfugel.files.wordpress.com/2015/09/20150908-diskswhereaggregate.jpg?w=660)](https://matthewfugel.files.wordpress.com/2015/09/20150908-diskswhereaggregate.jpg)
 
