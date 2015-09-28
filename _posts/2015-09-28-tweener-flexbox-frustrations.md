@@ -2,7 +2,7 @@
 title: "IE10 and \"Tweener\" Flexbox Frustrations"
 layout: post
 tags: [ie, css, flexbox]
-published: false
+published: true
 author: Will Stamper
 mail: "WillStamper@tnwinc.com"
 summary: IE10's flexbox implementation is strange and buggy, but the workaround is simple and (perhaps) unexpected.
