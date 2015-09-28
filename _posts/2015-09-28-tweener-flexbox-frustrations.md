@@ -24,7 +24,7 @@ We have a list of items where the contents of each `<li>` include a span, a labe
 </ul>
 {% endhighlight %}
 
-{% highlight css %}
+{% highlight scss %}
 .first-item {
   @include display("flex");
   label {
