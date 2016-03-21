@@ -2,7 +2,7 @@
 title: "Unbounding Results in PowerShell"
 layout: post
 tags: [powershell, ravendb]
-published: false
+published: true
 author: Wright Malone
 mail: "wrightmalone@navexglobal.com"
 summary: Sometimes you want to get all of the documents of a certain type, and there isn't a ton of information on that for powershell.
@@ -42,7 +42,7 @@ In exploring options, [a blog post was found](https://ayende.com/blog/161249/rav
 So basically the stream option in Raven’s API is utilized to create a streamed web request, then that stream is read and parsed to yield the same result as the paging done above. 
 To see what kind of performance increase there was using this method, we took a collection of 10000 documents and measured the time that it took to retrieve each object. Each method was run 5 times, and the average of those runs used to measure the relative performance. The average run time for paging was about 36 seconds, while the average for streaming was about 33 seconds:
 
-[results table](/screenshots/unbounding-results-ps "results table")
+[![results table](/screenshots/unbounding-results-ps)](/screenshots/unbounding-results-ps "results table")
 
 The benefits of streaming this unbounded result set become pretty clear when working with large collections of data, but as this is more or less a first-pass solution it is likely that there will be more ways to improve on it as we work with streaming results more. One of the more obvious examples of this is using the ReadLine method on our stream reader. As it stands there will be issues that stem from gathering larger amounts of data, as the full returned result is stored in memory. 
 
