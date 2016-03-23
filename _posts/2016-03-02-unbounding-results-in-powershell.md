@@ -8,8 +8,6 @@ mail: "wrightmalone@navexglobal.com"
 summary: Sometimes you want to get all of the documents of a certain type, and there isn't a ton of information on that for powershell.
 ---
 
-Unbounding Results with Powershell
-
 While working with RavenDB, we’ve gotten a lot of use from PowerShell to make our lives a little easier. As we started working with larger collections, the need to page the retrieved data became apparent. Raven has a page size cap of 1024 with rest, and we generally found 500 to be the better practice to account for longer docs causing potential timeouts. That paging would tend to look something like this:
  
     $count = 0
